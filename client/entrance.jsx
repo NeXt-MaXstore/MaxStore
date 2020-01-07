@@ -22,6 +22,7 @@ const Entrance = (props) => {
 
   return (
     <div>
+        hello
       <Navbar color="light" light expand="md">
         <NavbarBrand tag={Link} to="home">Home</NavbarBrand>
         <NavbarToggler onClick={toggle} />
