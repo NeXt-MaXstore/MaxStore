@@ -33,12 +33,12 @@ class EntranceItems extends React.Component {
 
   render() {
     return (
-      <Row className="m-4 p-4">
+      <Row className="m-4 p-4 ">
         {this.state.products.map(one => {
           return (
             <Col key={one._id} sm="3">
               <Card className="my-2">
-                <CardImg
+                <CardImg className="border"
                   top
                   width="100%"
                   src={"http://127.0.0.1:3000/api/uploads/" + one.photo}
